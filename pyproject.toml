@@ -1,0 +1,19 @@
+[project]
+name = "ae-sandbox"
+version = "0.1.0"
+description = "Evaluator-driven algorithm optimization sandbox inspired by AlphaEvolve-style workflows."
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name="Mike McKeever"}]
+dependencies = ["numpy>=1.26", "scikit-learn>=1.4", "pydantic>=2.7"]
+
+[project.scripts]
+ae-sandbox = "ae_sandbox.run:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
