@@ -29,29 +29,29 @@ This sandbox demonstrates that evaluator-first delivery pattern in a transparent
 
 ---
 
-## Core Idea: Evaluator-Governed Optimization
+## Core idea: evaluator-governed optimization
 
 The optimization loop follows a mission-style structure:
 
 1. Start with a baseline candidate configuration  
 2. Propose small controlled variations  
 3. Evaluate candidates using mission metrics  
-4. Accept changes **only when quality improves** AND governance constraints hold  
+4. Accept changes **only when quality improves** *and* governance constraints hold  
 5. Produce an auditable JSON report + summary artifact  
 
 ---
 
-## Benchmarks Included
+## Benchmarks included
 
-### ✅ Toy Clustering Benchmark (`toy_clustering`)
+### ✅ Toy clustering benchmark (`toy_clustering`)
+
 Optimizes clustering configuration (KMeans parameters) under governance constraints.
 
 - Quality proxy: inertia-based score  
 - Constraints: bounded parameters + latency budget  
 
----
+### ✅ Entity resolution / watchlisting benchmark (`entity_resolution`)
 
-### ✅ Entity Resolution / Watchlisting Benchmark (`entity_resolution`)
 Simulates identity matching workflows relevant to:
 
 - watchlisting  
@@ -61,19 +61,19 @@ Simulates identity matching workflows relevant to:
 
 Features:
 
-- Synthetic alias/noise generation  
-- Similarity threshold evolution  
+- synthetic alias/noise generation  
+- similarity threshold evolution  
 - F1 quality scoring + latency gating  
 
 ---
 
-## Governance + Mission Constraints
+## Governance + mission constraints
 
 The sandbox enforces lightweight governance gates:
 
-- Parameter bounds (safe ranges)  
-- Latency budgets (mission performance requirement)  
-- Fail-fast rejection for noncompliant candidates  
+- parameter bounds (safe ranges)  
+- latency budgets (mission performance requirement)  
+- fail-fast rejection for noncompliant candidates  
 
 This mimics real-world delivery where optimization must remain operationally safe.
 
@@ -81,9 +81,10 @@ This mimics real-world delivery where optimization must remain operationally saf
 
 ## Quickstart (Windows)
 
-### 1. Create environment
+### 1) Create environment
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+
