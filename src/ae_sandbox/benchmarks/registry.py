@@ -3,11 +3,14 @@ from __future__ import annotations
 from ae_sandbox.benchmarks.toy_clustering import ToyClusteringBenchmark
 from ae_sandbox.benchmarks.types import Benchmark
 from ae_sandbox.benchmarks.entity_resolution import EntityResolutionBenchmark
+from ae_sandbox.benchmarks.anomaly_detection import AnomalyDetectionBenchmark
 
 _REGISTRY: dict[str, type[Benchmark]] = {
     "toy_clustering": ToyClusteringBenchmark,
     "entity_resolution": EntityResolutionBenchmark,
+    "anomaly_detection": AnomalyDetectionBenchmark,
 }
+
 
 
 def get_benchmark(name: str) -> Benchmark:
